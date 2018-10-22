@@ -1,0 +1,25 @@
+
+{
+  "name": "dictee",
+  "version": "1.0.0",
+  "description": "dictee de characteres",
+  "main": "server.js",
+  "scripts": {
+	"start" : "node server.js",
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ichkamo/dictee.git"
+  },
+  "author": "grumbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ichkamo/dictee/issues"
+  },
+  "homepage": "https://github.com/Ichkamo/dictee#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
