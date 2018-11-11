@@ -32,7 +32,7 @@ french = [
 "faire passer le livre",
 "Tradition",
 "Mythe/conte",
-"Unification ",
+"Unification de l'écriture ",
 "relatives (eng.)",
 "chèrs",
 "proches",
