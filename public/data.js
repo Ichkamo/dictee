@@ -59,7 +59,7 @@ french = [
 "Petit-fils",
 "Grand-parents",
 "Frères",
-"les gens plus vieux de ta famille",
+"les aînés",
 "Toute le vie",
 "piété filiale"
     ]
