@@ -1,4 +1,4 @@
-// data.js
+ // data.js
 
 let char_list = characters
 let french_list = french
@@ -55,10 +55,10 @@ let next = () =>
     if (mode === 0) {
         get_next_offset()
         page.french.innerHTML = get_next_french()
-        page.pinying.innerHTML = "..."
+        page.pinyin.innerHTML = "..."
         page.character.innerHTML = "..."
     } else if (mode === 1) {
-        page.pinying.innerHTML = get_next_pin()
+        page.pinyin.innerHTML = get_next_pin()
     } else {
         page.character.innerHTML = get_next_char()
         mode = -1 //gets back to 0 below
