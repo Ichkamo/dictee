@@ -2,14 +2,13 @@
 
 let char_list = characters
 let french_list = french
-let pin_list = pinying
 
 // webpage items
 
 let page = 
 {
     french: document.getElementById("french_text"),
-    pinying: document.getElementById("pinying_text"),
+    pinyin: document.getElementById("pinyin_text"),
     character: document.getElementById("character_text")
 };
 
@@ -43,7 +42,7 @@ let get_next_offset = () =>
 
 let get_next_french = () => {return french_list[offset]}
 
-let get_next_pin = () => {return pin_list[offset]}
+let get_next_pin = () => {return pinyin(char_list[offset])}
 
 let get_next_char = () => {return char_list[offset]}
 
@@ -57,7 +56,7 @@ let next = () =>
         get_next_offset()
         page.french.innerHTML = get_next_french()
         page.pinying.innerHTML = "..."
-        page.character.innerHTML = "..."   
+        page.character.innerHTML = "..."
     } else if (mode === 1) {
         page.pinying.innerHTML = get_next_pin()
     } else {
