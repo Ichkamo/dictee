@@ -27,7 +27,7 @@ french4 = [
 "De olus en plus ",
 "En outre/ par ailleurs",
 "L'un ... l'autre ",
-"Rester là",
+"Rester là",
 "Étude à l'étranger ",
 "L'eau chaude ",
 "Indépendant ",
