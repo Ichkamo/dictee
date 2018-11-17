@@ -1,7 +1,7 @@
 // import characters from data
 
-let char_weeks = [characters0, characters1, characters2, characters3, characters4, characters5]
-let french_weeks = [french0, french1, french2, french3, french4, french5]
+let char_weeks = [characters0, characters1, characters2, characters3, characters4, characters5, characters6]
+let french_weeks = [french0, french1, french2, french3, french4, french5, french6]
 
 // globals
 
