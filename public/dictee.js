@@ -103,7 +103,7 @@ let start_dictee = () =>
 
 let next = () =>
 {
-    if (offset_in_range < len)
+    if (offset_in_range <= len)
     {
         if (mode === 0) {
             get_next_offset()
